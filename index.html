@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      hero {
+        position: relative;
+        display: block;
+        height: 100vh;
+      }
+      h1 {
+        color: white;
+        position: absolute;
+        font-family: "Oleo Script", cursive;
+        letter-spacing: 2px;
+        width: fit-content;
+        height: fit-content;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+      }
+      h2 {
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        margin: 20px auto 0;
+        left: 0;
+        right: 0;
+        font-family: "Oleo Script", cursive;
+      }
+      #hero {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+      }
+      #main {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+      }
+      button {
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        right: 0;
+        margin: 20px auto 0; 
+        background-color: red;
+        padding: 20px 70px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      p {
+        color: white;
+        padding: 0 35px;
+        font-size: 1.2rem;
+        top: 0;
+        height: max-content;
+        bottom: 0px;
+      }
+      .off {
+        display: none;
+      }
+      .on {
+        display: block;
+      }
+
+      #container {
+        height: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        overflow-y: scroll;
+      }
+      main {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <hero>
+      <h1>Es inevitable ver el atardecer y no soñar. Así como mirarte y no imaginarme una vida contigo</h1>
+      <img id="hero" src="./Assets/573529.jpg" alt="" />
+    </hero>
+    <main>
+      <div id="container">
+        <h2>¿Te lo leo? Quieres?</h2>
+        <button type="button">Si?</button>
+        <div id="sticker" class="off">
+          <p>Ni modo, te tocara leerlo</p>
+        </div>
+        <p>
+          Mi criaturita divina de Dios
+          Hay tantas cosas que contarte, hay tantos momentos que me invaden la mente de cosas que quisiera vivir contigo. Siempre fuiste tú la niña de mis ojos, mi princesa de oro. Te mereces el cielo y por arte de magia quisiera entregartelo en tus hermosas y suaves manos. Pero como soy tan de carne y hueso no encontré otra manera que darte un pedacito de ella.
+          Espero siempre que lo lleves contigo recuerdes que si somos nosotros y aunque en nuestro descuido haya llegado otras personas en nuestras vidas. El corazón siempre supo a quien pertenecían sus latidos y eso lo ha demostrado el tiempo así como la distancia.
+          Espero también recuerdes la Bonita sensación de nuestro primer beso, nuestro primer abrazo, nuestras primeras sonrisas juntos. Porque yo si lo tengo presente asi como la primera vez que me perdí, en los atardeceres de tu mirada. 
+          "Contigo sí puedo decir que si existe el amor a primera vista"
+          Cuando me abriste las puertas de tu corazón, no dudé ni un segundo en quitarme los zapatos. Porque te respeto y te valoro. Siempre fue a tu tiempo y nunca fue forzado. Te amo mi Cochita hermocha, mi pedacito de estrés, el amor de mi vida..
+        </p>
+      </div>
+      <img id="main" src="./Assets/fondo-saturno.jpeg" alt="" />
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
